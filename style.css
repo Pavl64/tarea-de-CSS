@@ -1,12 +1,15 @@
+
+
+
 h1{
     color:blue;
     text-align: center;
 }
-h2{
+
+.subtema{
     color:rgb(106, 127, 223);
     text-decoration: underline;
 }
 div{
     color:gray;
-    
 }

@@ -9,15 +9,16 @@
 </head>
 <body>
     <h1>TEMAS IMPORTANTES DE CSS</h1>
-    <h2>-especificidad:</h2>
+    <ol>
+    <h2><li class="subtema">especificidad:</li></h2>
     <p>La especificidad en CSS es un mecanismo para controlar qué estilo se aplicará a un elemento cuando hay varias reglas CSS que se aplican al mismo elemento.</p>
     <p>Tenemos cuatro niveles de epecificidad:</p>
-    <ul></ul>
-    <li>elementos HTML (especificidad=1)</li>
-    <li>clases (especificidad=10)</li>
-    <li>ID (especificidad=100)</li>
-    <li>inline (especificidad=1000)</li>
-    <li>important (especificidad=infinito)</li>
+    <ul>
+        <li>elementos HTML (especificidad=1)</li>
+        <li>clases (especificidad=10)</li>
+        <li>ID (especificidad=100)</li>
+        <li>inline (especificidad=1000)</li>
+        <li>important (especificidad=infinito)</li>
     </ul>
     <p>ejemplo:</p>
     <div>
@@ -32,18 +33,19 @@
     </div>
     <p>En el ejemplo anterior el color del h1 se establecera en firebrick, ya que el selector de clase es mas especifico que el selector de elemento</p>
     <br>        
-    <h2>-selectores:</h2>
+    <h2><li class="subtema">selectores:</li></h2>
     <p>Los selectores en CSS son patrones que se utilizan para identificar los elementos HTML a los que se aplicarán los estilos. Los selectores pueden ser de diferentes tipos y se pueden combinar para crear selectores más complejos y específicos.</p>
     <p>Mostraremos algunos tipos de selectores en CSS:</p>
-    <p>*selector de etiqueta: apunta a los elementos HTML especificos a los que se aplicara el estilo</p>
-    <p> ejemplo:</p>
-    <div>
-        <p>p{</p>
-        <p>color:green;</p>
-        <p>}</p>
-    </div>
-    <p>En este ejemplo se observaa como cambiamos los estilos de los parrafos</p>
-    <p>*selector de clase: es un atributo que va dentro de una etiqueta HTML</p>
+    <ul>    
+        <li>selector de etiqueta: apunta a los elementos HTML especificos a los que se aplicara el estilo</li>
+        <p> ejemplo:</p>
+        <div>
+            <p>p{</p>
+            <p>color:green;</p>
+            <p>}</p>
+        </div>
+        <p>En este ejemplo se observa como cambiamos los estilos de los parrafos</p>
+    <li>selector de clase: es un atributo que va dentro de una etiqueta HTML</li>
     <p>ejemplo:</p>
     <div>
         <p>(codigo HTML)</p>
@@ -54,7 +56,7 @@
         <p>      color:teal;</p>
         <p>}</p>
     </div>
-    <p>*selector ID:es un atributo que va dentro de una etiueta HTML es el de mayor valor de especificidad</p>
+    <li>selector ID:es un atributo que va dentro de una etiueta HTML es el de mayor valor de especificidad</li>
     <p>ejemplo:</p>
     <div>
         <p>(codigo HTML)</p>
@@ -65,9 +67,10 @@
         <p>font-family:cursive;</p>
         <p>}</p>
     </div>
+    </ul>
     <br>
-    <h2>-cascada:</h2>
-    <p>la cascada en las hojas de estilo significa que el orden de las reglas importa en CSS: cuando dos reglas tienen la misma especificidad, se aplica la que aparece en último lugar en el CSS.</p>
+    <h2><li class="subtema">cascada:</li></h2>
+    <p>La cascada en las hojas de estilo significa que el orden de las reglas importa en CSS. Cuando dos reglas tienen la misma especificidad, se aplica la que aparece en último lugar en el CSS.</p>
     <P>ejemplo:</P>
     <div>
         <p>h1{</p>
@@ -79,7 +82,8 @@
     </div>
     <p>En este ejemplo se aplicara el color "blue" ya que tiene la misma especificidad y esta en ultimo lugar</p>
     <br>
-    <h2>-herencia:</h2>
+    <h2><li class="subtema">herencia:</li></h2>
     <p>Es el mecanismo mediante el cual determinadas propiedades de un elemento padre se transmiten a sus hijos.</p>
+    </ol>
 </body>
 </html>
